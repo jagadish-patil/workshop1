@@ -6,24 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        header, footer {    
-            background: yellow;
-            height: 100px;            
+        body {
+            text-align: center;            
+        }
+        header {
+            background: #FBCFE8;
+            height: 100px;
         }
         section {
             display: flex;
+            height: 800px;
         }
-        section nav, section aside{
-            height: 700px;
-            background: yellow;
-            width: 20%;
-            margin: 10px;
-        }
-        section article{
-            height: 700px;
-            background: yellow;
+        section article {
+            background: white;
             width: 60%;
-            margin: 10px;
+            
+        }
+        section aside {
+            background: #C4B5FD;
+            width: 40%;
+        }
+        footer {
+            background: violet;
+            height: 100px;
         }
     </style>
 </head>
@@ -32,18 +37,15 @@
         Header
     </header>
     <section>
-        <nav>
-            NavBar
-        </nav>
         <article>
-            Article
+            Main Content
         </article>
         <aside>
-            Ads
+            Right Panel
         </aside>
     </section>
     <footer>
         Footer
-    </footer>
+    </footer>    
 </body>
 </html>
