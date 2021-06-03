@@ -5,13 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style></style>
+    <style>
+        body {
+            text-align: center;            
+        }
+        header, footer {
+            background: #C7D2FE;
+            height: 100px;
+        }
+        .section1 {
+            display: flex;
+            margin: 10px;            
+            margin: 10px;
+        }
+        .section1 .intro{
+            width: 50%;
+            height: 650px;
+            background: #C7D2FE;
+            margin: 10px;
+        }
+        .section1 aside{            
+            width: 50%;
+            margin: 10px;
+        }        
+        .section1 aside .hero{
+            background: #C7D2FE;
+            height: 500px;
+            margin: 10px;
+        }
+        .section1 aside .action{
+            background: #FBBF24;
+            height: 150px;
+            margin: 10px;
+        }
+        section{
+            background: #C7D2FE;
+            height: 100px;
+            margin: 10px;
+        }
+        .section2{
+            display: flex;
+            height: 100px;
+            margin: 10px;
+        }
+        .section2 .copy{
+            background: #C7D2FE;
+            width: 60%;
+            margin: 10px;
+        }
+        .section2 .action{
+            background: #FBBF24;
+            width: 40%;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header>Header</header>
+    <header>
+        Header
+    </header>
+    <div class="section1">
+        <div class="intro">
+            Intro Copy
+        </div>
+        <aside>
+            <div class="hero">
+                Hero Image
+            </div>
+            <div class="action">
+                Call to Action
+            </div>
+        </aside>
+    </div>
     <section>
-        
+        Features
     </section>
-    <footer>Footer</footer>
+    <div class="section2">
+        <div class="copy">
+            More Copy
+        </div>
+        <div class="action">
+            Call to Action
+        </div>
+    </div>
+    <footer>
+        Footer
+    </footer>
 </body>
 </html>
